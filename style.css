@@ -1,0 +1,253 @@
+/* @import url('https://fonts.google.com/specimen/Poppins');
+
+
+*/
+:root{
+    --Red: hsl(0, 100%, 74%) ;
+    --Green: hsl(154, 59%, 51%);  
+    --Blue: hsl(248, 32%, 49%);
+    --DarkBlue: hsl(249, 10%, 26%) ;
+    --GrayishBlue: hsl(246, 25%, 77%);
+    --xs:400;
+    --s:500;
+    --m:600;
+    --l:700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Red);
+    min-height: 100vh;
+}
+
+.container{
+    width: 85%;
+    height: 100vh;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.text-content{
+    color: white;
+}
+.text-xl{
+    font-size: 3.5rem;
+    font-weight: var(--l);
+    line-height: 4rem;
+}
+.text-m{
+    font-weight: 100;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+.try{
+    color: white;
+    background-color: var(--Blue);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 10px rgba(101, 101, 101, 0.482);
+    border-radius: 10px;
+}
+.mb-s{
+
+    margin-bottom: 1rem;
+}
+.mb{
+    margin-bottom: 2rem;
+}
+.form{
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px rgba(101, 101, 101, 0.482);
+}
+
+input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid var(--GrayishBlue);
+    font-weight: var(--l);
+}
+input:focus{
+    outline-style: none;
+}
+
+button{
+    background-color: var(--Green);
+    color: white;
+    border: 1px solid var(--Green);
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: var(--s);
+    border-radius: 5px;
+    box-shadow: 0px 5px hsl(154, 67%, 35%);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.detail{
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--GrayishBlue);
+}
+.click{
+    color: var(--Green);
+    font-weight: var(--l);
+    cursor: pointer;
+}
+@media (max-width: 1023px) {
+    .d-grid{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .text-content{
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .form-signup{
+        margin-bottom: 2rem;
+    }
+
+} 
+/*
+
+
+
+.s{
+    font-weight: 400px;
+    font-size: 1rem;
+}
+.m{
+    font-weight: 500px;
+}
+.l{
+    font-weight: 600px;
+}
+.xl{
+    font-weight: 700px;
+    font-size: 1.6rem;
+}
+
+.d-flex{
+    display: flex;
+    margin : 0 1rem;
+}
+
+.content{
+    margin-top: 20rem;
+    margin-left: 10rem;
+    width: 45%;
+    padding-right: 5rem;
+}
+.detail{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.group{
+    width: 55%;
+    padding: 8rem 6rem 0 2rem;
+    margin: auto 0;
+}
+
+.box{
+    border-radius: 0.5rem;
+    background-color: var(--Blue);
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 10px 10px var(--DarkBlue);
+    margin-bottom: 2rem;
+}
+
+.form-fill{
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 2.5rem;
+    padding-bottom: 2rem;
+}
+input{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 1px solid var(--GrayishBlue);
+}
+
+input:focus{
+    outline: none;
+}
+
+.fillout{
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.text-error{
+    font-size: 0.8rem;
+    text-align: right;
+    display: none;
+}
+
+
+.icon{
+    position: absolute;
+    top: 18%;
+    right: 3%;
+    display: none;
+}
+
+
+.btn{
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--Green);
+    border: 1px solid var(--Green);
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 10px 5px var(--Green);
+}
+
+.color1{
+    color: var(--Red);
+}
+.color2{
+    color: var(--GrayishBlue);
+}
+.color3{
+    color: var(--Green);
+}
+
+.click{
+    cursor: pointer;
+}
+
+
+*/
