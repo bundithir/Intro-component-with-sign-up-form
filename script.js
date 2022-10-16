@@ -25,6 +25,7 @@ const valid =(e)=>{
         if(value == '' || value === undefined){
             icon[i].style.display ="block";
             text[i].style.display = "block";
+            input[i].style.border = "2px solid hsl(0, 100%, 74%)";
         }
     else{
         icon[i].style.display ="none";
