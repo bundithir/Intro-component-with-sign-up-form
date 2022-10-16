@@ -66,6 +66,11 @@ body{
     text-align: center;
     box-shadow: 0px 10px rgba(101, 101, 101, 0.482);
     border-radius: 10px;
+    font-weight: var(--l);
+}
+
+.small{
+    font-weight:var(--xs);
 }
 .mb-s{
 
