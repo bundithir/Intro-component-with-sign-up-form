@@ -1,7 +1,7 @@
-var ic_name = document.getElementById("ic-er-name");
-var ic_last = document.getElementById("ic-er-last");
-var ic_mail = document.getElementById("ic-er-email");
-var ic_pass = document.getElementById("ic-er-pass");
+var ic_name = document.getElementById("icon-err-name");
+var ic_last = document.getElementById("icon-err-last");
+var ic_mail = document.getElementById("icon-err-email");
+var ic_pass = document.getElementById("icon-err-pass");
 
 var name_err = document.getElementById("name");
 var last_err = document.getElementById("last");

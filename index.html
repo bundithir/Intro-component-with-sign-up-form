@@ -29,12 +29,29 @@
       </div>
       <div class="form">
         <form>
-          <input class="mb-s" type="text" placeholder="First Name">
-          <input class="mb-s" type="text" placeholder="Last Name">
-          <input class="mb-s" type="email" placeholder="Email Address">
-          <input class="mb-s" type="password" placeholder="Password">
+          <div class="relative mb-s">
+            <input type="text" placeholder="First Name"id='f-name'>
+            <img src="./images/icon-error.svg" id="icon-err-name" alt="error" class="icon-err">
+            <p class="text-err" id="name">First Name cannot be empty</p>
+          </div>
+          <div class="relative mb-s">
+            <input type="text" placeholder="Last Name" id='f-last'>
+            <img src="./images/icon-error.svg" id="icon-err-last" alt="error" class="icon-err">
+            <p class="text-err" id="last">Last Name cannot be empty</p>
+          </div>
+          <div class="relative mb-s">
+            <input type="email" placeholder="Email Address" id='f-email'>
+            <img src="./images/icon-error.svg" id="icon-err-email" alt="error" class="icon-err">
+            <p class="text-err"  id="email">Looks like this is not be an email</p>
+          </div>
+          <div class="relative mb-s">
+            <input type="password" placeholder="Password" id='f-pass'>
+            <img src="./images/icon-error.svg" id="icon-err-pass" class="icon-err" alt="error">
+            <p class="text-err" id="pass">Password cannot be emppty</p>
+          </div>
+          
         </form>
-        <button class="mx-auto mb-s" >clam your free trial</button>
+        <button class="mx-auto mb-s" id="btn">clam your free trial</button>
         <p class="detail mb-s">By clicking the button you are agreeing to our <span class="click">Terms and Services</span></p>
       </div>
     </div>
